@@ -42,9 +42,9 @@ test.describe('Portfolio site', () => {
     await expect(page.locator('#services h3')).toHaveText(SERVICES);
   });
 
-  test('shows five case studies', async ({ page }) => {
-    await expect(page.locator('#work h3')).toHaveCount(5);
-    await expect(page.locator('#work h3').last()).toHaveText('Document question-answering API');
+  test('shows seven case studies', async ({ page }) => {
+    await expect(page.locator('#work h3')).toHaveCount(7);
+    await expect(page.locator('#work h3').last()).toHaveText('End-to-end test suite for a live website');
   });
 
   test('FAQ answers expand and collapse', async ({ page }) => {
