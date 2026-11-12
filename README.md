@@ -8,7 +8,7 @@ A TypeScript test suite that checks a live website the way a user (and a client'
 
 - Page title and a single, meaningful h1
 - Every navigation link targets a section that exists, and clicking scrolls to it (desktop)
-- The six service lines and five case studies appear, in order
+- The six service lines appear in order, and all seven case studies are listed
 - FAQ items expand and collapse
 - The open-source demo link is reachable
 - Contact links are valid `mailto:` addresses
